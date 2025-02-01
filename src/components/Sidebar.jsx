@@ -19,7 +19,7 @@ export default function Sidebar() {
           <div>
             <ul className="flex flex-col space-y-4">
               <SidebarLinks
-                icon="public/images/icon/Icon.svg"
+                icon="/images/icon/Icon.svg"
                 label={"Home"}
                 hoverIcon={"/images/icon/Dotblue.svg"}
               />
@@ -70,12 +70,12 @@ export default function Sidebar() {
                 )}
               </li>
               <SidebarLinks
-                icon="public/images/icon/IconOrg.svg"
+                icon="/images/icon/IconOrg.svg"
                 label={"Organizations"}
                 hoverIcon={"/images/icon/Dotblue.svg"}
               />
               <SidebarLinks
-                icon="public/images/icon/IconCar.svg"
+                icon="/images/icon/IconCar.svg"
                 label={"Vehicles"}
                 hoverIcon={"/images/icon/Dotblue.svg"}
               />
@@ -116,17 +116,17 @@ export default function Sidebar() {
                 )}
               </li>
               <SidebarLinks
-                icon="public/images/icon/IconWallet.svg"
+                icon="/images/icon/IconWallet.svg"
                 label={"Wallet"}
                 hoverIcon={"/images/icon/Dotblue.svg"}
               />
               <SidebarLinks
-                icon="public/images/icon/IconTransaction.svg"
+                icon="/images/icon/IconTransaction.svg"
                 label={"Transactions"}
                 hoverIcon={"/images/icon/Dotblue.svg"}
               />
               <SidebarLinks
-                icon="public/images/icon/IconShippingQuotes.svg"
+                icon="/images/icon/IconShippingQuotes.svg"
                 label={"Shipping Quotes"}
                 hoverIcon={"/images/icon/Dotblue.svg"}
               />
@@ -177,10 +177,10 @@ export default function Sidebar() {
                 )}
               </li>
               <SidebarLinks
-                icon="public/images/icon/IconMarket.svg"
+                icon="/images/icon/IconMarket.svg"
                 label="Marketplace"
               />
-              <SidebarLinks icon="public/images/icon/IconLog.svg" label="Log" />
+              <SidebarLinks icon="/images/icon/IconLog.svg" label="Log" />
               <li>
                 <button
                   onClick={() => setIsCollapseSettings(!isCollapseSettings)}
@@ -225,7 +225,7 @@ export default function Sidebar() {
           <div className="flex items-center space-x-7 p-3">
             <div className="flex gap-2 items-center">
               <div>
-                <img src="public/images/Avatar.svg" alt="userAvatar" />
+                <img src="/images/Avatar.svg" alt="userAvatar" />
               </div>
               <div className="flex flex-col text-white">
                 <span>Olivia Rhye</span>
@@ -233,7 +233,7 @@ export default function Sidebar() {
               </div>
             </div>
             <div>
-              <img src="public/images/icon/IconLogOut.svg" alt="LogOut-icon" />
+              <img src="/images/icon/IconLogOut.svg" alt="LogOut-icon" />
             </div>
           </div>
         </div>
