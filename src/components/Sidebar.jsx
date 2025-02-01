@@ -126,7 +126,7 @@ export default function Sidebar() {
                 hoverIcon={"/images/icon/Dotblue.svg"}
               />
               <SidebarLinks
-                icon="/images/icon/IconShippingQuotes.svg"
+                icon="/images/icon/iconShippingQuotes.svg"
                 label={"Shipping Quotes"}
                 hoverIcon={"/images/icon/Dotblue.svg"}
               />
